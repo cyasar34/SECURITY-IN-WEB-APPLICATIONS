@@ -29,10 +29,10 @@ theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. B
 <b>Komut:</b> theHarvester –d gelisim.edu –b duckduckgo –f deneme –s
 
 <p align="justify"><li>theHarvester tool’u kullanarak gelisim.edu üzerinde bing arama motorunda brute-force yöntemi ile subdomainleri bulup “test” dokümanına kaydeden komut bloğunu yazınız?</li></p>
-<b>Komut:</b> theHarvester –d gelisim.edu –b bing –f test –c
+<b>Komut:</b> theHarvester –d gelisim.edu –b bing –f test –c <br><br>
 
 
-
+> **Yasal Sınırlar:** theHarvester gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
 
 
 
