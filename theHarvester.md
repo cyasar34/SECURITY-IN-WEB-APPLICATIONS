@@ -1,6 +1,6 @@
 ## theHarvester
-Kali Linux üzerinde bulunan theHarvester, sızma testlerinde sıklıkla kullanılan bir pasif bilgi toplama aracıdır. Pasif bilgi toplama, hedef sistemlerle doğrudan etkileşime girmeden bilgi elde etme anlamına gelir.
-theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. Bu araç, bir hedef hakkında geniş kapsamlı bilgi toplamak için kullanılır ve özellikle e-posta adresleri, alt alan adları (subdomains), ana bilgisayar adları (hostnames) ve IP adresleri gibi bilgileri keşfetmeye yardımcı olur. 
+<p align="justify">Kali Linux üzerinde bulunan theHarvester, sızma testlerinde sıklıkla kullanılan bir pasif bilgi toplama aracıdır. Pasif bilgi toplama, hedef sistemlerle doğrudan etkileşime girmeden bilgi elde etme anlamına gelir.
+theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. Bu araç, bir hedef hakkında geniş kapsamlı bilgi toplamak için kullanılır ve özellikle e-posta adresleri, alt alan adları (subdomains), ana bilgisayar adları (hostnames) ve IP adresleri gibi bilgileri keşfetmeye yardımcı olur. </p>
 
 ### theHarvester'ın Temel Özellikleri:
 <li>E-posta Adresi Toplama: Hedef domain ile ilişkili e-posta adreslerini toplar.</li>
@@ -21,9 +21,15 @@ theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. B
 | -s | Sorgulanan alan adının Shodan üzerinden bilgi toplanır. |
 | -c | Brute force yöntemi ile subdomainleri bulmayı sağlar. |
 
+#### theHarvester Ekran Görüntüsü
+![theHarvester](https://github.com/cyasar34/SECURITY-IN-WEB-APPLICATIONS/blob/main/theHarvester.PNG)
 
+### Örnek Kullanım Senaryoları
+<p align="justify"><li>theHarvester tool’u kullanarak gelisim.edu üzerinde duckduckgo arama motorunda ve shadon üzerinde tarama yapıp sonuçları “deneme” dosyasına kaydeden komut bloğunu yazınız?</li></p>
+<b>Komut:</b> theHarvester –d gelisim.edu –b duckduckgo –f deneme –s
 
-
+<p align="justify"><li>theHarvester tool’u kullanarak gelisim.edu üzerinde bing arama motorunda brute-force yöntemi ile subdomainleri bulup “test” dokümanına kaydeden komut bloğunu yazınız?</li></p>
+<b>Komut:</b> theHarvester –d gelisim.edu –b bing –f test –c
 
 
 
