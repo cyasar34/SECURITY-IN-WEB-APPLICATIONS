@@ -1,28 +1,27 @@
-## Google Dork 
-Google Dork'ları, Google'ın gelişmiş arama operatörlerini kullanarak internetteki hassas veya gizli bilgilere erişmek için kullanılan özel arama sorgularıdır. Bu teknik, genellikle "Google Hacking" olarak adlandırılır ve etik hackleme, güvenlik testleri veya bilgi toplama amacıyla kullanılır. Ancak, bu teknikler kötü niyetli kişiler tarafından da kullanılabilir, bu yüzden dikkatli olunmalı ve yasal sınırlar içinde kalınmalıdır.
+## theHarvester
+Kali Linux üzerinde bulunan theHarvester, sızma testlerinde sıklıkla kullanılan bir pasif bilgi toplama aracıdır. Pasif bilgi toplama, hedef sistemlerle doğrudan etkileşime girmeden bilgi elde etme anlamına gelir.
+theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. Bu araç, bir hedef hakkında geniş kapsamlı bilgi toplamak için kullanılır ve özellikle e-posta adresleri, alt alan adları (subdomains), ana bilgisayar adları (hostnames) ve IP adresleri gibi bilgileri keşfetmeye yardımcı olur. 
 
-### Temel Google Dork Operatörleri
-| GOOGLE DORK | AÇIKLAMA | KULLANIM ŞEKLİ |
-| :---         |     :---:      |          ---: |
-| site |	Belirli bir web sitesinde arama yapar. | site:example.com |
-| intitle |	Başlığında belirli bir kelime geçen sayfaları bulur. | intitle:"login" |
-| inurl |	URL'sinde belirli bir kelime geçen sayfaları bulur. |	inurl:admin |
-| filetype |	Belirli bir dosya türünü arar. |	filetype:pdf |
-| intext |	İçeriğinde belirli bir kelime geçen sayfaları bulur. |	intext:"password" |
-| cache |	Google'ın önbelleğindeki bir sayfayı gösterir. |	cache:example.com |
-| related |	Belirli bir siteye benzer siteleri bulur. |	related:example.com |
+### theHarvester'ın Temel Özellikleri:
+<li>E-posta Adresi Toplama: Hedef domain ile ilişkili e-posta adreslerini toplar.</li>
+<li>Alt Alan Adı (Subdomain) Keşfi: Hedef domainin alt alan adlarını tespit eder.</li>
+<li>Ana Bilgisayar (Host) ve IP Adresi Keşfi: Hedef domainle ilişkili sunucuların IP adreslerini ve ana bilgisayar adlarını listeler.</li>
+<li>Çeşitli Veri Kaynakları: Google, Bing, LinkedIn, Twitter, Shodan, VirusTotal gibi farklı kaynaklardan veri toplar.</li>
+<li>Esnek Kullanım:Komut satırı arayüzü (CLI) üzerinden kullanılır.</li>
 
-### Google Dork'larının Riskleri
-Google Dork'ları, hassas bilgilere erişim sağlayabildiği için kötü niyetli kişiler tarafından kullanılabilir. Örneğin:
-<li> Veri sızıntıları: Şifreler, API anahtarları veya kişisel bilgiler gibi hassas veriler bulunabilir. </li>
-<li> Güvenlik açıkları: Açık dizinler, yanlış yapılandırılmış sunucular veya güvenlik açıkları tespit edilebilir. </li>
-<li> Yasal sorunlar: İzinsiz erişim veya bilgi toplama, yasal sorunlara yol açabilir. </li>
+### En yaygın kullanılan theHarvester parametreleri
+| PARAMETRE | AÇIKLAMA | 
+| :---         |     :---:      |       
+| -d | Taranacak hedef alan adını veya IP adresini belirtir. |
+| -b | Kullanılacak kaynakları belirtir. Birden fazla kaynak seçmek için virgülle ayırınız. |
+| -f | Çıktı formatını belirtir. XML ve JSON formatında çıktı verir.|
+| -h | Yardım mesajını görüntüler. |
+| -v | Verbose modu etkinleştirir. Bu mod, daha fazla bilgi içeren çıktılar üretir. |
+| -l | Limit değerini belirtir. |
+| -s | Sorgulanan alan adının Shodan üzerinden bilgi toplanır. |
+| -c | Brute force yöntemi ile subdomainleri bulmayı sağlar. |
 
-### Google Dork'larından Korunma Yöntemleri
-<li> Dosya ve Dizin İzinleri: Hassas dosyaların herkese açık olmamasına dikkat edin. </li>
-<li> Robot.txt Dosyası: Google'ın dizine eklemesini istemediğiniz sayfaları robots.txt dosyasıyla engelleyin. </li>
-<li> Güvenlik Duvarı ve Erişim Kontrolü: Sunucularınızı güvenlik duvarı ve erişim kontrol listeleri (ACL) ile koruyun. </li>
-<li> Düzenli Denetimler: Web sitenizi düzenli olarak tarayarak açıklarınızı tespit edin. </li>
+
 
 
 
