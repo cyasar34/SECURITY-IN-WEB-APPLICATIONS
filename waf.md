@@ -1,38 +1,26 @@
-## theHarvester
-<p align="justify">Kali Linux üzerinde bulunan theHarvester, sızma testlerinde sıklıkla kullanılan bir pasif bilgi toplama aracıdır. Pasif bilgi toplama, hedef sistemlerle doğrudan etkileşime girmeden bilgi elde etme anlamına gelir.
-theHarvester, çeşitli açık kaynaklardan bilgi toplamak için kullanılır. Bu araç, bir hedef hakkında geniş kapsamlı bilgi toplamak için kullanılır ve özellikle e-posta adresleri, alt alan adları (subdomains), ana bilgisayar adları (hostnames) ve IP adresleri gibi bilgileri keşfetmeye yardımcı olur. </p>
+## WAF (Web Application Firewall)
+<p align="justify">Web Uygulaması Güvenlik Duvarı, bir web uygulamasından veya web sitesinden gelen ve giden veri paketlerini izleyen, filtreleyen ve engelleyen bir güvenlik aracıdır. WAF, bir web uygulaması ile kullanıcı arasında yer alarak, gelen ve giden trafiği analiz eder ve kötü niyetli istekleri engeller. Bu sayede, web uygulamalarının güvenliği artırılır ve olası saldırılar önlenir.
 
-### theHarvester'ın Temel Özellikleri:
-<li>E-posta Adresi Toplama: Hedef domain ile ilişkili e-posta adreslerini toplar.</li>
-<li>Alt Alan Adı (Subdomain) Keşfi: Hedef domainin alt alan adlarını tespit eder.</li>
-<li>Ana Bilgisayar (Host) ve IP Adresi Keşfi: Hedef domainle ilişkili sunucuların IP adreslerini ve ana bilgisayar adlarını listeler.</li>
-<li>Çeşitli Veri Kaynakları: Google, Bing, LinkedIn, Twitter, Shodan, VirusTotal gibi farklı kaynaklardan veri toplar.</li>
-<li>Esnek Kullanım:Komut satırı arayüzü (CLI) üzerinden kullanılır.</li>
+### WAF Nasıl Çalışır?
+<li>Trafik Analizi: WAF, gelen ve giden tüm HTTP/HTTPS trafiğini inceler.</li>
+<li>Kurallar ve İmzalar: Önceden tanımlanmış kurallar ve saldırı imzaları kullanarak kötü niyetli istekleri tespit eder.</li>
+<li>Anomali Tespiti: Anormal trafik davranışlarını tespit eder.</li>
+<li>Engelleme veya Uyarı: Kötü niyetli istekleri engeller veya yöneticilere uyarı gönderir.</li>
 
-### En yaygın kullanılan theHarvester parametreleri
-| PARAMETRE | AÇIKLAMA | 
-| :---         |     :---:      |       
-| -d | Taranacak hedef alan adını veya IP adresini belirtir. |
-| -b | Kullanılacak kaynakları belirtir. Birden fazla kaynak seçmek için virgülle ayırınız. |
-| -f | Çıktı formatını belirtir. XML ve JSON formatında çıktı verir.|
-| -h | Yardım mesajını görüntüler. |
-| -v | Verbose modu etkinleştirir. Bu mod, daha fazla bilgi içeren çıktılar üretir. |
-| -l | Limit değerini belirtir. |
-| -s | Sorgulanan alan adının Shodan üzerinden bilgi toplanır. |
-| -c | Brute force yöntemi ile subdomainleri bulmayı sağlar. |
+### WAF Temel İşlevleri
+<li>SQL Injection Engelleme: SQL enjeksiyon saldırılarını tespit eder ve engeller.</li>
+Örneğin, bir saldırganın veritabanına zararlı SQL sorguları göndermesini önler.
+<li>Cross-Site Scripting (XSS) Engelleme: XSS saldırılarını tespit eder ve engeller.</li>
+Örneğin, kötü niyetli JavaScript kodlarının çalıştırılmasını önler.
+<li>DDoS Koruması: Dağıtılmış Hizmet Reddi (DDoS) saldırılarını hafifletir.</li>
+Örneğin, anormal trafik yoğunluğunu tespit eder ve engeller.
+<li>Bot Yönetimi: Zararlı botların web uygulamasına erişimini engeller. </li>
+Örneğin, otomatik tarama yapan botları tespit eder.
+<li>Güvenlik Açığı Taraması: Web uygulamasındaki bilinen güvenlik açıklarını tespit eder. </li>
+Örneğin, eski yazılım sürümlerinden kaynaklanan açıkları bildirir.
+<li>Veri Sızıntısını Önleme: Hassas verilerin (örneğin, kredi kartı bilgileri) sızmasını engeller.</li> <br><br>
 
-#### theHarvester Ekran Görüntüsü
-![theHarvester](https://github.com/cyasar34/SECURITY-IN-WEB-APPLICATIONS/blob/main/theHarvester.PNG)
-
-### Örnek Kullanım Senaryoları
-<p align="justify"><li>theHarvester tool’u kullanarak gelisim.edu üzerinde duckduckgo arama motorunda ve shadon üzerinde tarama yapıp sonuçları “deneme” dosyasına kaydeden komut bloğunu yazınız?</li></p>
-<b>Komut:</b> theHarvester –d gelisim.edu –b duckduckgo –f deneme –s
-
-<p align="justify"><li>theHarvester tool’u kullanarak gelisim.edu üzerinde bing arama motorunda brute-force yöntemi ile subdomainleri bulup “test” dokümanına kaydeden komut bloğunu yazınız?</li></p>
-<b>Komut:</b> theHarvester –d gelisim.edu –b bing –f test –c <br><br>
-
-
-> **Yasal Sınırlar:** theHarvester gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
+> **Yasal Sınırlar:** WAF gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
 
 
 
