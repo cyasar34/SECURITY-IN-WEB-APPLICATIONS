@@ -96,8 +96,6 @@ Nmap betikleri, belirli kategorilere ayrılmıştır. Bazı önemli kategoriler 
 <b>Komut:</b> nmap –sn –traceroute 192.168.1.0/24
 
 
-
-
 > **Yasal Sınırlar:** Nmap gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
 
 
