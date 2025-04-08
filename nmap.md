@@ -1,7 +1,7 @@
 ## Nmap
 <p align="justify">Nmap aracı port taramalarında en stabil ve en çok kullanılan bir araçtır. Sadece port tarama değil işletim sistemi tespiti,
 ağ haritalama, ağ tarama işlemlerinde kullanılabilir. Açık kaynak kodlu ve ücretsizdir. Nmap aracı Kali Linux ile birlikte
-gelmektedir. Aynı zamanda Windows, Mac ve Unix sistemlerinin hepsinde kullanmak mümkündür
+gelmektedir. Aynı zamanda Windows, Mac ve Unix sistemlerinin hepsinde kullanmak mümkündür.</p>
   
 ### Nmap Temel Özellikleri:
 <li>Ağ Keşfi (Host Discovery): Bir ağdaki aktif cihazları (host'ları) tespit eder. Örneğin, bir IP aralığındaki tüm cihazları bulur. </li>
@@ -15,7 +15,7 @@ gelmektedir. Aynı zamanda Windows, Mac ve Unix sistemlerinin hepsinde kullanmak
 <p align="justify">Nmap'in yeteneklerini genişleten ve otomatik olarak çeşitli görevleri
 gerçekleştiren betiklerdir. Bu betikler, ağ taraması, servis tespiti, güvenlik açığı taraması ve daha birçok işlevi
 otomatikleştirmek için kullanılır. Bu betikler, Lua programlama dili ile yazılır ve aşağıdaki gibi çeşitli amaçlar için
-kullanılabilir:
+kullanılabilir:</p>
 <li>Servis ve sürüm tespiti</li>
 <li>Güvenlik açığı taraması</li>
 <li>Ağ keşfi</li>
@@ -54,7 +54,7 @@ Nmap betikleri, belirli kategorilere ayrılmıştır. Bazı önemli kategoriler 
 | # nmap –oX deneme.xml 192.168.1.1 | XML formatında çıktı verir. |
 
 
-#### Nmap Ekran Görüntüsü
+### Nmap Ekran Görüntüsü
 ![Nmap](https://github.com/cyasar34/SECURITY-IN-WEB-APPLICATIONS/blob/main/nmap.PNG)
 
 ### Örnek Kullanım Senaryoları
