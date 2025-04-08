@@ -18,7 +18,7 @@ SpiderFoot, hedef sistem veya kişi hakkında çeşitli ağ, domain, IP adresi, 
 ![SpiderFoot](https://github.com/cyasar34/SECURITY-IN-WEB-APPLICATIONS/blob/main/SpiderFoot.PNG)
 
 
-> **Yasal Sınırlar:** theHarvester gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
+> **Yasal Sınırlar:** SpiderFoot gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
 
 
 
