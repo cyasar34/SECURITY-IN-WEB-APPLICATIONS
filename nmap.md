@@ -93,7 +93,7 @@ Nmap betikleri, belirli kategorilere ayrılmıştır. Bazı önemli kategoriler 
 <b>Komut:</b> nmap –script=ftp-anon 192.168.1.1
 
 <p align="justify"><li>Nmap tool’u kullanarak 192.168.1.0/24 ağındaki cihazların bağlantılarını ve topolojisini çıkarmak için kullanılan komut bloğunu yazınız?</li></p>
-<b>Komut:</b> nmap –sn –traceroute 192.168.1.0/24
+<b>Komut:</b> nmap –sn –traceroute 192.168.1.0/24 <br><br><br>
 
 
 > **Yasal Sınırlar:** Nmap gibi araçlar yalnızca yasal ve yetkili testlerde kullanılmalıdır. İzinsiz kullanım yasa dışıdır. <br>
