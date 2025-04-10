@@ -27,7 +27,7 @@ Nmap betikleri, belirli kategorilere ayrılmıştır. Bazı önemli kategoriler 
 <li><b>auth:</b> Kimlik doğrulama ile ilgili betikler.</li>
 <li><b>default:</b> Varsayılan taramalarda kullanılan betikler.</li>
 <li><b>discovery:</b> Ağ keşfi yapan betikler.</li>
-<li><b><exploit:/b> Güvenlik açıklarını tespit etmeye yönelik betikler.</li>
+<li><b>exploit:</b> Güvenlik açıklarını tespit etmeye yönelik betikler.</li>
 <li><b>vuln:</b> Güvenlik açıklarını tarayan betikler.</li>
 <li><b>safe:</b> Sistemlere zarar vermeyen güvenli betikler.</li>
 
